@@ -2,13 +2,15 @@
 
 Mini project done at G. Narayanamma Institute of Technology & Sciences (2021)
 
+# Handwritten Character Recognition (HCR) with Flask
+
 ## Overview
-This project focuses on developing a **Handwritten Character Recognition** system that can detect **alphabets** (A-Z) and **numbers** (1-9) from handwritten input. The system uses machine learning techniques such as **Convolutional Neural Networks (CNNs)** to achieve accurate recognition.
+This project involves a **Flask web application** that uses a pre-trained **Keras model** for **handwritten character recognition**. The application detects **alphabets (A-Z)** and **numbers (1-9)** from uploaded handwritten images.
 
 ## Features
-- **Character Detection**: Recognizes uppercase alphabets (A-Z) and digits (1-10) from handwritten input.
-- **User-Friendly Interface**: Allows drawing characters and receiving real-time predictions.
-- **Accuracy**: The model is trained to provide reliable recognition with high accuracy.
+- **Real-time Prediction**: Upload an image, and the system will predict the handwritten character.
+- **Flask Web Interface**: A simple web interface to interact with the system.
+- **Pre-trained Model**: Utilizes a Keras model trained on handwritten characters for accurate predictions.
 
 ## Installation
 
@@ -16,9 +18,8 @@ This project focuses on developing a **Handwritten Character Recognition** syste
 Ensure the following are installed:
 - **Python 3.x**
 - **Required libraries**:
+  - `Flask`
   - `TensorFlow`
   - `Keras`
   - `NumPy`
   - `OpenCV`
-  - `Matplotlib`
-
