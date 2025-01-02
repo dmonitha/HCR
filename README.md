@@ -1,20 +1,24 @@
-Handwritten Character Recognition
-Overview
-This project focuses on developing a Handwritten Character Recognition system capable of detecting both alphabets (A-Z) and numbers (1-9). The system utilizes machine learning and deep learning techniques to train a model that can accurately recognize characters from handwritten input.
+# Handwritten Character Recognition
 
-The recognition system is built using Python, leveraging libraries such as TensorFlow, Keras, OpenCV, and others for preprocessing, training, and prediction tasks.
+Mini project done at G. Narayanamma Institute of Technology & Sciences (2021)
 
-Features
-Character Detection: Recognizes uppercase alphabets (A-Z) and digits (1-9) from handwritten inputs.
-User-Friendly Interface: Easy-to-use interface for drawing characters and receiving predictions in real time.
-Accuracy: The model is trained on a dataset of handwritten characters to achieve reliable recognition.
-Installation
-Prerequisites
-Python 3.x
-Libraries: TensorFlow, Keras, NumPy, OpenCV, Matplotlib, etc.
+## Overview
+This project focuses on developing a **Handwritten Character Recognition** system that can detect **alphabets** (A-Z) and **numbers** (1-9) from handwritten input. The system uses machine learning techniques such as **Convolutional Neural Networks (CNNs)** to achieve accurate recognition.
 
+## Features
+- **Character Detection**: Recognizes uppercase alphabets (A-Z) and digits (1-10) from handwritten input.
+- **User-Friendly Interface**: Allows drawing characters and receiving real-time predictions.
+- **Accuracy**: The model is trained to provide reliable recognition with high accuracy.
 
-Model Details
-Architecture: The model is based on a Convolutional Neural Network (CNN) to efficiently recognize patterns in handwritten characters.
-Training Data: The model is trained using a dataset of labeled handwritten characters. The dataset includes both alphabets (A-Z) and numbers (1-9).
-Evaluation: The model is evaluated on a separate test set to assess its accuracy and robustness.
+## Installation
+
+### Prerequisites
+Ensure the following are installed:
+- **Python 3.x**
+- **Required libraries**:
+  - `TensorFlow`
+  - `Keras`
+  - `NumPy`
+  - `OpenCV`
+  - `Matplotlib`
+
