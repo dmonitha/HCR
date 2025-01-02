@@ -1,0 +1,1 @@
+This platform utilizes a Convolutional Neural Network, which was developed at GNITS and achieved 97% accuracy in predicting (cursive and block) letters and digits. It's a feed-forward network with TensorFlow and Keras, incorporating Maxpool, Flatten, and Dense layers.
